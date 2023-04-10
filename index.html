@@ -5,10 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nike FootCap</title>
+    <!-- FontAwesome Link -->
+    <script src="https://kit.fontawesome.com/7320fe7641.js" crossorigin="anonymous"></script>
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="px-2 md:px-4 lg:px-12 xl:px-60 2xl:px-80 ms-auto">
-    <h1 class="font-bold text-2xl mt-5 text-center">This is Nike FootCap Website</h1>
+    <header class="mt-10 md:flex justify-between items-center">
+      <div><img class="cursor-pointer" src="images/logo.svg" /></div>
+      <nav class="font-sans ml-auto">
+        <ul class="font-bold text-lg gap-5 md:flex justify-between items-center">
+          <li><a href="#" class="bg-orange-300 px-2 py-0.5 text-gray-800 rounded">Home</a></li>
+          <li>
+            <a
+              href="#"
+              class="hover:bg-orange-300 px-2 py-0.5 text-gray-600 rounded transition duration-500 ease-in-out"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:bg-orange-300 px-2 py-0.5 text-gray-600 rounded transition duration-500 ease-in-out"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:bg-orange-300 px-2 py-0.5 text-gray-600 rounded transition duration-500 ease-in-out"
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:bg-orange-300 px-2 py-0.5 text-gray-600 rounded transition duration-500 ease-in-out"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="hover:bg-orange-300 px-2 py-0.5 text-gray-600 rounded transition duration-500 ease-in-out"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="ml-auto space-x-10">
+        <button><img src="images/search.png" /></button>
+        <button><img src="images/love.png" /></button>
+        <button class="w-8"><img src="images/cart.png" /></button>
+        <button class="w-8"><img src="images/user.png" /></button>
+      </div>
+    </header>
   </body>
+  <script src="js/app.js"></script>
 </html>
